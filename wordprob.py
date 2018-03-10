@@ -7,7 +7,7 @@ cv = v1 - v2
 cd = v2 * ct
 C = abs(float(cd/cv))
 A = C - ct
-print (A)
+print ('The 2nd train will catch the first one in '+A+' hours')
 #print(d)
 """
 t=0
