@@ -1,13 +1,13 @@
 #v1 = 30
 
 #d1,d2 = 0,-90
-ct=float(3)
 v1,v2 = float(raw_input('Speed of Train 1(Slow Train): ')),float(raw_input('Speed of Train 2(Fast Train):'))#30,60
+ct=float(raw_input("What's the difference in time between Train 1 and 2: "))
 cv = v1 - v2
 cd = v2 * ct
 C = abs(float(cd/cv))
 A = C - ct
-print ('The 2nd train will catch the first one in '+A+' hours')
+print ('Train 2 will catch the Train 1 in '+str(A)+' hours')
 #print(d)
 """
 t=0

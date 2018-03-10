@@ -1,3 +1,9 @@
+
+
+#this was created due to an agency that decided to give me a 5 minute typing speed test
+#I couldn't imagine it being possible to type for 5 minutes straight and maintaining my mental stability
+#Sooo.... i made a script to do it for me
+
 from pynput.keyboard import Controller
 import time
 #pynput is a library that gives python access you your keyboard inputs
