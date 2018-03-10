@@ -1,2 +1,3 @@
 # ChallengeAccepted
-Coding challenges
+weatha.py requires a python shell.
+  python weatha.py {zipcode}
