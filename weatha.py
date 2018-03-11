@@ -36,7 +36,8 @@ with requests.Session() as r:
 		bruh = fi.json()['cnt'] - 1
 		now = datetime.now()
 		today9am = now.replace(hour=9,minute=0,second=0,microsecond=0)
-		if(now>today9am):
+		today8pm = now.replace(hour=20, minute=0, second=0, microsecond=0)
+		if(now>today9am and now<today8pm):
 			Dayz(fi.json()['list'][0]['dt_txt'][:10],
 			fi.json()['list'][0]['weather'][0]['description'],
 			fi.json()['list'][0]['main']['humidity'], 
